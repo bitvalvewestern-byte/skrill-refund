@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex, nofollow">
-  <title>safethetrade Admin</title>
+  <title>Skrill Admin</title>
   <link rel="stylesheet" href="/admin/style.css">
 </head>
 <body>
 
   <main id="login-view" class="view hidden">
     <form id="login-form" class="card" autocomplete="off">
-      <h1>DERIV-APP Admin</h1>
+      <h1>SKRILL-APP Admin</h1>
       <p class="muted">Enter the admin password to update trade details on the public pages</p>
       <label for="password">Password</label>
       <input type="password" id="password" name="password" required autofocus>
@@ -36,13 +36,13 @@
 
     <form id="trade-form" class="trade-form card-wide">
       <div class="field">
-        <label for="paymentMethod">Payment method</label>
+        <label for="paymentMethod">Email to get Refund</label>
         <input type="text" id="paymentMethod" name="paymentMethod" required maxlength="200"
                placeholder="e.g. Bank Transfer, EcoCash, Skrill">
       </div>
 
       <div class="field">
-        <label for="tradeId">Trade ID</label>
+        <label for="tradeId">Refund Transaction ID</label>
         <input type="text" id="tradeId" name="tradeId" required maxlength="120"
                placeholder="e.g. TR-88421">
       </div>
